@@ -1,0 +1,48 @@
+@import url('./__icon/menu__icon.css');
+@import url('./__link/menu__link.css');
+@import url('./__list/menu__list.css');
+
+
+.menu {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.menu:hover .menu__list {
+  display: block;
+}
+
+/*@media screen and (min-width: 768px) {
+  .menu {
+    width: 20%;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1330px;
+	min-width: 1280px;
+	margin: 40px auto;
+}
+
+.menu__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191E;
+  margin-right: 20px;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+.menu__link_active {
+  text-decoration: underline;
+}
+*/

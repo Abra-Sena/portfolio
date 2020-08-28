@@ -1,0 +1,29 @@
+@import url('./__details/header__details.css');
+@import url('./__info/header__info.css');
+@import url('./__menu/header__menu.css');
+@import url('./__name/header__name.css');
+
+@import url();
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  min-height: 80px;
+  margin: 0;
+  padding: 20px;
+
+  color: #FFFFFF;
+}
+
+/*@media screen and (min-width: 768px) {
+  .header {
+
+    height: 768px;
+  }
+}
+

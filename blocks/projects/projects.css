@@ -1,0 +1,8 @@
+@import url('./__list/projects__list.css');
+
+.projects {
+  margin: 0 auto;
+  padding: 0;
+  background: #b8e599;
+}
+

@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  margin: 0 auto;
+  padding: 20px;
+
+  background: cadetblue;
+}
+
+/*
+.content {
+  min-height: calc(100vh - 160px);
+*/

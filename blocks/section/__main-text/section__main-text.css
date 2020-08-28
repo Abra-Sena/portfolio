@@ -1,0 +1,9 @@
+.section__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 65%;
+
+  background-color: blueviolet;
+}

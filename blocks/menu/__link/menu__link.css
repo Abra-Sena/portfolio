@@ -1,0 +1,21 @@
+.menu__link {
+  display: block;
+
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-decoration: none;
+  color: #FFF;
+  z-index: 1;
+}
+
+.menu__link:last-child {
+  margin: 0;
+}
+
+.menu__link:hover {
+  background-color: #DDD;
+}

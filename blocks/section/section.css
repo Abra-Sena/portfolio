@@ -1,0 +1,19 @@
+@import url('./__details/section__details.css');
+@import url('./__description/section__description.css');
+@import url('./__item/section__item.css');
+@import url('./__list/section__list.css');
+@import url('./__main-text/section__main-text.css');
+@import url('./__paragraph/section__paragraph.css');
+@import url('./__place/section__place.css');
+@import url('./__subtitle/section__subtitle.css');
+@import url('./__title/section__title.css');
+@import url('./__year/section__year.css');
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+
+  background: darkolivegreen;
+}

@@ -1,0 +1,11 @@
+@import url('./__details/contact__details.css');
+@import url('./__icon/contact__icon.css');
+@import url('./__link/contact__link.css');
+@import url('./__list/contact__list.css');
+
+
+.contact {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

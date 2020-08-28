@@ -1,0 +1,6 @@
+@import url('./_active/text-star_active.css');
+
+.text-star::before {
+  content:"\2605";
+  opacity: .5;
+}

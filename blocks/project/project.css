@@ -1,0 +1,20 @@
+@import url('./__description/project__description.css');
+@import url('./__name/project__name.css');
+@import url('./__photo/project__photo.css');
+
+[data-component="slideshow"] .project {
+  display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .project.active {
+  display: block;
+}
+
+
+.project {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  min-height: 200px;
+}
