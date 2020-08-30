@@ -1,6 +1,8 @@
-### My Personal Resume Website
+# My Portfolio
 
-### This is my first personal project
+## This is my first personal project, which I assigned to myself :smile:.
+
+* My work is accessible [here](https://abra-sena.github.io/portfolio/).
 
 ### Description
 
@@ -8,13 +10,13 @@
 * Page structured with BEM Methodology
 * Technologies: HTML, CSS, JavaScript
 * Page icon designed with [Inkscape](https://inkscape.org)
-*
+
 
 ### Functionnalities
 
 
 ### Support
-* Image in header is from (https://unsplash.com/).
+* Image in header is from [Unsplash](https://unsplash.com/).
 * HTML files validated with [W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload).
 
 
