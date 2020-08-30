@@ -8,8 +8,15 @@
 * Page structured with BEM Methodology
 * Technologies: HTML, CSS, JavaScript
 * Page icon designed with [Inkscape](https://inkscape.org)
+*
 
 ### Functionnalities
 
-* Grid-area used to section page's content
-* Grid-area used to section content section's content
+
+### Support
+* Image in header is from (https://unsplash.com/).
+* HTML files validated with [W3C Markup Validation Service](https://validator.w3.org/#validate_by_upload).
+
+
+### License
+

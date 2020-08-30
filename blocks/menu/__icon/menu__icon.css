@@ -11,3 +11,9 @@
 .menu__icon:hover {
   opacity: .5;
 }
+
+@media screen and (min-width: 768px) {
+  .menu__icon {
+    visibility: hidden;
+  }
+}

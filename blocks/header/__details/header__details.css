@@ -6,7 +6,11 @@
   padding: 0;
   width: 100%;
 
-  background-image: url('../../../images/main-page.jpg');
+  /*needs to be changed*/
+  background-image: url('../../../images/experieence-page-1.jpg');
   background-size: cover;
   background-repeat:  no-repeat;
+  background-position: center;
+
+  opacity: .8;
 }

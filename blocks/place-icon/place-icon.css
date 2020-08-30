@@ -9,3 +9,10 @@
   box-sizing: border-box;
   float: left;
 }
+
+@media screen and (min-width: 768px) {
+  .place-icon {
+    width: 28px;
+    height: 28px;
+  }
+}

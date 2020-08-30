@@ -1,20 +1,12 @@
-//automatic change projects in the gallery after 3 seconds
-const slideshows = [...document.querySelectorAll('.projects__list')];
+function readMoreText() {
+  const dot = document.querySelector('.dots');
+  const moreText = document.getElementById('more');
 
-slideshows.forEach((slide) => {
-  // Get an array of slides
-  const slides = [...document.querySelectorAll('.project')];
-
-  const index = 0, time = 5000;
-  slides[index].classList.add('active');
-
-  setInterval(() => {
-    slides[index].classList.remove('active');
-
-    index++;
-    if(index == slides.length) index = 0;
-
-    slides[index].classList.add('active');
-
-  }, time);
-});
+  if(dot.style.display === 'none') {
+    dot.style.display = 'inline';
+    moreText.style.display = 'none';
+  } else {
+    dot.style.display = 'none';
+    moreText.style.display = 'inline';
+  }
+}

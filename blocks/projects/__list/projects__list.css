@@ -1,18 +1,24 @@
-
 .projects__list {
   display: flex;
   flex-direction: column;
-
-
   margin: 0 auto;
   padding: 0;
   list-style: none;
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .projects__list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 80%;
   }
 }
-*/
+
+@media screen and (min-width: 1024px) {
+  .projects__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    gap: 24px;
+  }
+}

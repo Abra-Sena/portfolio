@@ -1,5 +1,5 @@
 .project__photo {
-  height: 200px;
+  height: 300px;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -7,9 +7,3 @@
   box-sizing: border-box;
 }
 
-/*.project__photo:first-child {
-  height: 279px;
-  width: 279px;
-  object-fit: cover;
-}
-*/

@@ -14,7 +14,7 @@
     <header class="header">
       <div class="header__menu">
         <!--SVG for Abravi logo-->
-        <img src="./images/logo.svg" class="logo logo_place_header">
+        <img src="./images/logo.svg" alt="header-logo" class="header__logo">
         <!--navigation menus-->
         <nav class="menu">
           <button type="button" aria-label="menu-collapse-icon" class="menu__icon"></button>
@@ -27,136 +27,140 @@
         </nav>
       </div>
       <div class="header__details">
-        <h1 class="header__name">Hi, It Is Abravi Emiline Tekpa !</h1>
-        <a href="" class="header__info">Latest Projects</a>
+        <h1 class="header__name">Hi, It Is Abravi Emiline Tekpa</h1>
+        <p class="header__description">A Software Engineer, Android Developper, and Web Developper to be</p>
+        <a href="#projects" class="header__info">Latest Projects</a>
       </div>
     </header>
     <main class="content">
       <section class="profile">
-        <h2 class="section__title">Profile</h2>
         <div class="profile__description">
           <h3 class="profile__title">About Me</h3>
           <p class="section__description">
-            I am currently an International Student, studying and preparing for an Associate of Science in Computer
-            Programming at Berkeley City College, Berkeley California.
-            <br>I previousely worked for a Call Center in IT Networks and Telecommunications for five years in my home country.
+            I am an Aspiring Software Engineer, Android Developper, and Web Developper. I am currently an International
+            Student, studying and preparing for an Associate of Science in Computer Programming at
+            <a href="#more" class="read-more" onclick="readMoreText()"><span class="dots"> →</span></a><span id="more">
+            Berkeley City College, Berkeley California. I previousely worked for a Call Center in IT Networks and
+            Telecommunications for five years in my home country.
             <br>Driven by creativety and problem solving, I didn't want to retire solving problem with tools developed by
             other people. I want to be part of that team who work behind the scene to allow others to interacte with amazing
             products, from hardware to software.
             <br>These and the continuous desire to learn are some of the reasons which pushed me to come to the US and
-            pursue my college education.
-            <br>I am an Aspiring Software Engineer, and Android Developper, and a Web Developper.
+            pursue my college education.</span>
           </p>
         </div>
         <div class="profile__details">
-          <h3 class="profile__title">Skills</h3>
-          <ul class="profile__list">
-            <li class="profile__text">
-              <h4 class="profile__text_title">Java</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star"></span>
-                <span class="text-star"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">JavaScript</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star"></span>
-                <span class="text-star"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">CSS3, HTML5, BEM</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">Linus and Windows</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">IT Networks</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-              </p>
-            </li>
-          </ul>
-          <h3 class="profile__title">Languages</h3>
-          <ul class="profile__list">
-            <li class="profile__text">
-              <h4 class="profile__text_title">English(Daily Use)</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">French(Fluent)</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-              </p>
-            </li>
-            <li class="profile__text">
-              <h4 class="profile__text_title">Ewe(Mother Tongue)</h4>
-              <p class="profile__text_star">
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-                <span class="text-star text-star_active"></span>
-              </p>
-            </li>
-          </ul>
+          <div class="profile__item">
+            <h3 class="profile__title">Skills</h3>
+            <ul class="profile__list">
+              <li class="profile__text">
+                <h4 class="profile__text_title">Java</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star"></span>
+                  <span class="text-star"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">JavaScript</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star"></span>
+                  <span class="text-star"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">CSS3, HTML5, BEM</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">Linus and Windows</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">IT Networks</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="profile__item">
+            <h3 class="profile__title">Languages</h3>
+            <ul class="profile__list">
+              <li class="profile__text">
+                <h4 class="profile__text_title">English(Daily Use)</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">French(Fluent)</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                </p>
+              </li>
+              <li class="profile__text">
+                <h4 class="profile__text_title">Ewe(Mother Tongue)</h4>
+                <p class="profile__text_star">
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                  <span class="text-star text-star_active"></span>
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section class="projects section">
+      <section id="projects" class="projects section">
         <h2 class="section__title">Projects</h2>
         <p class="section__description">
           I participated to some bootcamps which allow me to try myself at different fields in Computer
           Science, such as Android Development and Web Development. Below are my projects.
         </p>
 
-        <ul id="slide-show" class="projects__list" data-component="slideshow">
+        <ul id="slide-show" class="projects__list">
           <li class="project">
-            <div>
-              <h3 class="project__name">Andorid - FlashCard</h3>
-              <p class="project__description">
-                This Android Flash Card App alows user to click on the question view to reveal the answer.
-                User can also make visible by a click three proposition answers to choose from.
-                An animation follows the user action, wheither it was the correct answer or not.
-                This app also allows users to create and save their own cards, and breose through the database to see all cards.
-               </p>
-            </div>
+            <h3 class="project__name">Andorid - FlashCard</h3>
             <img src="./images/project_mobile_flashcard.png" alt="flashcard-project" class="project__photo">
+            <p class="project__description">
+              This Android Flash Card App alows user to click on the question view to reveal the answer.
+              User can also make visible by a click three proposition answers to choose from.
+              An animation follows the user action, wheither it was the correct answer or not.
+              This app also allows users to create and save their own cards, and breose through the database to see all cards.
+              <br>This project is a result of 8 weeks course in Android Development with CodePath.
+            </p>
           </li>
           <li class="project">
             <h3 class="project__name">First WebSite with CSS3 and HTML5</h3>
@@ -181,7 +185,7 @@
             <h3 class="project__name">Website with Form Validation</h3>
             <img src="./images/project_web_third.png" alt="third-website" class="project__photo">
             <p class="project__description">
-              Thi is my first project using JavaScript to add elements to the page on load and allow user to edit
+              This is my first project using JavaScript to add elements to the page on load and allow user to edit
               existing content and add new items if needed. On page load, six intial card are preloaded with JavaScript
               All forms are hidden per default, and they are only visible through user interactions. The inputs fields
               are also required on content edit or add. User can validate input with Enter key, and close a popup form
@@ -190,7 +194,7 @@
           </li>
           <li class="project">
             <h3 class="project__name">This Website</h3>
-            <img src="" alt="this-webiste" class="project__photo">
+            <img src="./images/portfolio.png" alt="this-webiste" class="project__photo">
             <p class="project__description">
               This Portfolio not only helps me streghten the knowledge I have in HTML, CSS and JavaScript;
               but it also showcase my projects and talk about my journey in Computer Science. It is the best way
@@ -211,7 +215,7 @@
             <div class="section__main-text">
               <p class="section__paragraph">
                 Beta Tester of Practicum by Yandex’s full online curriculum in Web Development
-                Programm started May 2020 for 10 months.
+                Program, started May 2020 and will last 10 months.
               </p>
               <p class="section__place">
                 <span class="place-icon"></span>
@@ -265,23 +269,23 @@
         <h2 class="section__title">Get in Touch</h2>
         <div class="contact__details">
           <ul class="contact__list">
-            <li class="contact__link"><img src="./images/phone_icon.svg" class="contact__icon">(510) 542-7987</li>
-            <li class="contact__link"><img src="./images/email_icon.svg" class="contact__icon">temiline@gmail.com</li>
-            <li class="contact__link"><img src="./images/home_icon.svg" class="contact__icon">Oakland, CA, US</li>
+            <li class="contact__link"><img src="./images/phone_icon.svg" alt="phone-icon" class="contact__icon">(510) 542-7987</li>
+            <li class="contact__link"><img src="./images/email_icon.svg" alt="mail-icon" class="contact__icon">temiline@gmail.com</li>
+            <li class="contact__link"><img src="./images/home_icon.svg" alt="home-icon" class="contact__icon">Oakland, CA, US</li>
           </ul>
           <ul class="contact__list">
             <li>
-              <a href="https://www.linkedin.com/in/abravi-emiline-tekpa/" target="_blank" class="contact__link">
+              <a href="https://www.linkedin.com/in/abravi-emiline-tekpa/" target="_blank" class="contact__link contact__link_active">
                 <img src="./images/linkedin_color_blue.svg" alt="linkedin icon" class="contact__icon">LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://github.com/Abra-Sena" target="_blank" class="contact__link">
+              <a href="https://github.com/Abra-Sena" target="_blank" class="contact__link contact__link_active">
                 <img src="./images/github_color_black.svg" alt="gitHub icon" class="contact__icon">GitHub
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/Emiline_T" target="_blank" class="contact__link">
+              <a href="https://twitter.com/Emiline_T" target="_blank" class="contact__link contact__link_active">
                 <img src="./images/twitter_color_blue.svg" alt="twitter icon" class="contact__icon">Twitter
               </a>
             </li>
@@ -290,21 +294,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__columns">
-        <div class="footer__column footer__column_content_copyright">
-          <p class="footer__author">© 2020. Abravi Emiline Tekpa</p>
-        </div>
-        <div class="footer__column footer__column_content_info">
-          <nav class="footer__column-links">
-            <ul class="footer__list">
-              <li><a href="index.html" class="footer__link">Home Page</a></li>
-              <li><a href="about.html" class="footer__link">About Me</a></li>
-              <li><a href="education.html" class="footer__link">Educations</a></li>
-              <li><a href="experience.html" class="footer__link">Experiences</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      <p class="footer__copyright">© 2020 Abravi Emiline Tekpa</p>
+      <ul class="footer__list">
+        <li><a href="index.html" class="footer__link">Home Page</a></li>
+        <li><a href="about.html" class="footer__link">About Me</a></li>
+        <li><a href="education.html" class="footer__link">Educations</a></li>
+        <li><a href="experience.html" class="footer__link">Experiences</a></li>
+      </ul>
     </footer>
 
     <script src="./script/index.js"></script>

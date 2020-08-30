@@ -1,7 +1,7 @@
 .menu__link {
   display: block;
 
-  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -12,10 +12,19 @@
   z-index: 1;
 }
 
-.menu__link:last-child {
-  margin: 0;
-}
-
 .menu__link:hover {
   background-color: #DDD;
+}
+
+
+@media screen and (min-width: 768px) {
+  .menu__link {
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #000;
+  }
+
 }

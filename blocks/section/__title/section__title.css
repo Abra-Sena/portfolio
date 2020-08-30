@@ -3,11 +3,20 @@
   padding: 0;
   border-bottom: 1px solid rgba(184, 19, 19, 0.7);
 
-  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 42px;
-  line-height: 36px;
+  font-size: 36px;
+  line-height: 42px;
 
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title {
+    margin: 90px 60px 0;
+    padding-bottom: 20px;
+
+    text-align: left;
+  }
 }

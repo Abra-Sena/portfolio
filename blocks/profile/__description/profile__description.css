@@ -1,5 +1,33 @@
 .profile__description {
   margin: 0 auto;
   padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
+.read-more {
+  cursor: pointer;
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.read-more:hover {
+  opacity: .5;
+}
+
+#more {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .read-more {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

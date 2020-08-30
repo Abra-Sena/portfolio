@@ -6,3 +6,12 @@
   margin: 0 0 20px;
   padding: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .contact__details {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 20px auto;
+  }
+}

@@ -1,12 +1,22 @@
 .header__info {
   margin: 30px auto 20px;
+  opacity: 1;
 
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
 
+  text-decoration-line: underline;
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 768px)  {
+  .header__info {
+    margin: 145px 0 60px 130px;
+
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

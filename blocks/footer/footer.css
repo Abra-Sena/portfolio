@@ -1,37 +1,21 @@
-@import url('./__author/footer__author.css');
-@import url('./__column-links/footer__column-links.css');
-@import url('./__column/_content/footer__column_content_copyright.css');
-@import url('./__column/footer__column.css');
-@import url('./__columns/footer__columns.css');
+@import url('./__copyright/footer__copyright.css');
 @import url('./__link/footer__link.css');
 @import url('./__list/footer__list.css');
 
 .footer {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   margin: 0;
   padding: 30px 20px 0;
 
-  background: #b3aea8;
+  color: #000;
 }
 
-/*
-.footer {
-  height: 95px;
-	display: flex;
-  justify-content: center;
-  max-width: 1330px;
-	min-width: 1280px;
+@media screen and (min-width: 768px)  {
+  .footer {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
-
-.footer__logo {
-  width: 145px;
-  height: 25px;
-  background-image: url(https://code.s3.yandex.net/web-code/logo-black-eng.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-self: center;
-}
-
-*/
