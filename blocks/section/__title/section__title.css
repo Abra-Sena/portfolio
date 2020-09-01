@@ -1,5 +1,5 @@
 .section__title {
-  margin: 20px 0;
+  margin: 20px 0 0 20px;
   padding: 0;
   border-bottom: 1px solid rgba(184, 19, 19, 0.7);
 
@@ -12,9 +12,10 @@
   text-align: center;
 }
 
+
 @media screen and (min-width: 768px) {
   .section__title {
-    margin: 90px 60px 0;
+    margin: 90px 90px 0;
     padding-bottom: 20px;
 
     text-align: left;

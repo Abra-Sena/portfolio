@@ -8,7 +8,7 @@
   margin: 0 auto;
   padding: 20px;
 
-  background: linear-gradient(to bottom right, #9999ff 0%, #ff99cc 100%);
+  background: rgba(223, 224, 169, 0.979);
 }
 
 @media screen and (min-width: 768px) {

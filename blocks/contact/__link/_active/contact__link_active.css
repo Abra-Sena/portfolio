@@ -1,0 +1,8 @@
+.contact__link_active {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.contact__link_active:hover {
+  opacity: .5;
+}

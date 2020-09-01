@@ -2,15 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: .8;
   margin: 0;
   padding: 0;
   width: 100%;
 
   /*needs to be changed*/
-  background-image: url('../../../images/experieence-page-1.jpg');
+  background-image: url('../../../images/experience-page.jpg');
   background-size: cover;
   background-repeat:  no-repeat;
   background-position: center;
-
-  opacity: .8;
 }
