@@ -1,11 +1,15 @@
 .menu__icon {
-  margin: 0;
+  float: right;
+  margin: 0 10px 0 0;
   padding: 0;
   height: 35px;
   width: 35px;
   cursor: pointer;
   box-sizing: border-box;
   background: url('../../../images/menu_icon.svg') center no-repeat;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: .3s;
 }
 
 .menu__icon:hover {

@@ -5,7 +5,7 @@
 
 .menu {
   position: relative;
-  display: inline-block;
+  width: 100vw;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +15,7 @@
   .menu {
     display: flex;
     justify-content: space-between;
-    min-width: 50%;
+    align-items: center;
   }
 
 }

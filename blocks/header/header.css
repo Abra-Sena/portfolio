@@ -5,8 +5,6 @@
 @import url('./__menu/header__menu.css');
 @import url('./__name/header__name.css');
 
-@import url();
-
 
 .header {
   display: flex;
@@ -17,7 +15,7 @@
   width: 100%;
   min-height: 80px;
   margin: 0;
-  padding: 20px;
+  padding: 0;
 
   color: #FFF;
 }
@@ -26,6 +24,5 @@
   .header {
     width: 90%;
     margin: 0 auto;
-    padding: 0;
   }
 }

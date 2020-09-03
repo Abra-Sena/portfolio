@@ -1,17 +1,33 @@
 .menu__list {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: absolute;
   visibility: hidden;
-  z-index: 1;
+  transition: .3s;
+  height: calc(100% - 40px);
+  bottom: 0;
+  right: 10px;
   margin: 0;
   padding: 0;
+  z-index: 1;
+
   list-style-type: none;
+  color: #000;
+}
+
+.menu__list-open {
+  max-width: 50vw;
+
+  background-color: rgba(75, 70, 70, 0.5);
+  visibility: visible;
 }
 
 
 @media screen and (min-width: 768px) {
   .menu__list {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     visibility: visible;
-    color: #000;
   }
 }
