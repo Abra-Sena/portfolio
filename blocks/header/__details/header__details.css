@@ -6,10 +6,17 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 80vh;
 
   /*needs to be changed*/
   background-image: url('../../../images/experience-page.jpg');
   background-size: cover;
   background-repeat:  no-repeat;
   background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header__details {
+    height: 90vh;
+  }
 }

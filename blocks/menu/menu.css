@@ -4,8 +4,8 @@
 
 
 .menu {
-  position: relative;
-  width: 100vw;
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
 }
@@ -13,9 +13,6 @@
 
 @media screen and (min-width: 768px) {
   .menu {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
   }
-
 }

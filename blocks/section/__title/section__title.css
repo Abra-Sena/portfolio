@@ -1,12 +1,12 @@
 .section__title {
-  margin: 20px 0 0 20px;
-  padding: 0;
+  margin: 20px 0;
+  padding: 0 0 10px;
   border-bottom: 1px solid rgba(184, 19, 19, 0.7);
 
   font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 8vh;
   line-height: 42px;
 
   text-align: center;
@@ -15,9 +15,7 @@
 
 @media screen and (min-width: 768px) {
   .section__title {
-    margin: 90px 90px 0;
-    padding-bottom: 20px;
-
-    text-align: left;
+    margin: 90px 0 60px;
+    padding: 0 0 20px;
   }
 }

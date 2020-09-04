@@ -6,18 +6,24 @@
   font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 42px;
+  font-size: 8vh;
   line-height: 36px;
 
   text-align: center;
   z-index: 10;
 }
 
+@media screen and (min-width: 425px) {
+  .header__name {
+    font-size: 10vh;
+    line-height: 52px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header__name {
     margin: 100px 0 0 130px;
 
-    font-size: 64px;
     line-height: 78px;
     text-align: left;
   }

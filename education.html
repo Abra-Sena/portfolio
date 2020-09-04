@@ -13,17 +13,18 @@
   <body class="page">
     <header class="header">
       <div class="header__menu">
-        <!--SVG for Abravi logo-->
-        <img src="./images/logo.svg" alt="header-logo" class="header__logo">
         <!--navigation menus-->
         <nav class="menu">
-          <button type="button" aria-label="menu-collapse-icon" class="menu__icon"></button>
-          <ul class="menu__list">
-            <li><a href="index.html" class="menu__link">Home</a></li>
-            <li><a href="about.html" class="menu__link">About</a></li>
-            <li><a href="education.html" class="menu__link">Education</a></li>
-            <li><a href="experience.html" class="menu__link">Experiences</a></li>
-          </ul>
+          <!--SVG for Abravi logo-->
+          <img src="./images/logo.svg" alt="header-logo" class="header__logo">
+          <div class="menu__dropdown">
+            <ul class="menu__list">
+              <li><a href="index.html" class="menu__link">Home</a></li>
+              <li><a href="education.html" class="menu__link">Education</a></li>
+              <li><a href="experience.html" class="menu__link">Experiences</a></li>
+            </ul>
+            <button type="button" aria-label="menu-collapse-icon" class="menu__icon"></button>
+          </div>
         </nav>
       </div>
       <div class="header__details">
@@ -39,7 +40,7 @@
           <li class="section__item">
             <div class="section__details">
               <h3 class="section__subtitle">Practicum by Yandex</h3>
-              <p class="section__year">Expected Graduation, April 2021</p>
+              <p class="section__year">Expected April 2021</p>
             </div>
             <div class="section__main-text">
               <p class="section__paragraph">
@@ -56,7 +57,7 @@
           <li class="section__item">
             <div class="section__details">
               <h3 class="section__subtitle">Berkeley City College</h3>
-              <p class="section__year">Expected Graduation, July 2021</p>
+              <p class="section__year">Expected May 2021</p>
             </div>
             <div class="section__main-text">
               <p class="section__paragraph">Associate in Science Degree, Computer Programming</p>
@@ -227,8 +228,7 @@
     <footer class="footer">
       <p class="footer__copyright">© 2020 Abravi Emiline Tekpa</p>
       <ul class="footer__list">
-        <li><a href="index.html" class="footer__link">Home Page</a></li>
-        <li><a href="about.html" class="footer__link">About Me</a></li>
+        <li><a href="index.html" class="footer__link">Home</a></li>
         <li><a href="education.html" class="footer__link">Educations</a></li>
         <li><a href="experience.html" class="footer__link">Experiences</a></li>
       </ul>

@@ -1,13 +1,7 @@
 .footer__link {
   display: inline-block;
-  margin-left: 20px;
+  margin: 0;
   padding: 0;
-
-  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
 
   text-decoration: none;
   color: #000;
@@ -17,10 +11,14 @@
   opacity: .5;
 }
 
+@media screen and (min-width: 425px) {
+  .footer__link {
+    margin-left: 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer__link {
-    font-size: 18px;
-    line-height: 22px;
+    margin-left: 20px;
   }
-
 }

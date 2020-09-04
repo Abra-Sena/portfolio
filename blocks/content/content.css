@@ -4,9 +4,9 @@
   justify-content: center;
 
   width: calc(100% - 40px);
-  min-height: calc(100vh - 80px);
   margin: 0 auto;
   padding: 20px;
+  font-size: 3vh;
 
   background: rgba(223, 224, 169, 0.979);
 }
@@ -15,6 +15,5 @@
   .content {
     width: 90%;
     padding: 0;
-    min-height: calc(100vh - 160px);
   }
 }

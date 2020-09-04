@@ -1,18 +1,16 @@
 .profile__description {
   margin: 0 auto;
   padding: 0;
-  font-size: 14px;
-  line-height: 1.5;
+
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 18px;
+
 }
 
 .read-more {
   cursor: pointer;
-  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-
   text-decoration: none;
   color: #000;
 }
@@ -26,8 +24,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .read-more {
-    font-size: 18px;
+  .profile__description {
+    width: 50%;
     line-height: 30px;
   }
 }

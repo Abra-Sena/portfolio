@@ -1,5 +1,6 @@
 .footer__list {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   list-style-type: none;
 
@@ -7,8 +8,14 @@
   padding: 0;
 }
 
+@media screen and (min-width: 425px) {
+  .footer__list {
+    flex-direction: row;
+  }
+}
+
 @media screen and (min-width: 768px)  {
   .footer__list {
-    margin: 30px 0 30px 20px;
+    margin: 30px 0;
   }
 }

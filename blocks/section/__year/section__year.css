@@ -1,10 +1,10 @@
 .section__year {
-  margin: 0;
+  margin: 10px 0 0;
   padding: 0;
 
   font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 18px;
 }

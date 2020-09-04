@@ -1,12 +1,10 @@
 .header__logo {
-  width: 128px;
   height: 35px;
   z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
   .header__logo {
-    width: 183px;
     height: 78px;
   }
 }

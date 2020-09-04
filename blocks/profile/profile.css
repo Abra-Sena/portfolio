@@ -15,3 +15,10 @@
   margin: 0 auto;
   background: #FFFAF2;
 }
+
+@media screen and (min-width: 768px) {
+  .profile {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

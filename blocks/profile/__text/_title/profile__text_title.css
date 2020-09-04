@@ -5,12 +5,5 @@
   font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
   line-height: 25px;
-}
-
-@media screen and (min-width: 768px) {
-  .profile__text_title {
-    margin-right: 80px;
-  }
 }

@@ -1,14 +1,15 @@
 .menu__icon {
-  float: right;
   margin: 0 10px 0 0;
   padding: 0;
   height: 35px;
   width: 35px;
-  cursor: pointer;
-  box-sizing: border-box;
   background: url('../../../images/menu_icon.svg') center no-repeat;
   border: 1px solid #000;
   border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  float: right;
+
   transition: .3s;
 }
 
@@ -19,5 +20,8 @@
 @media screen and (min-width: 768px) {
   .menu__icon {
     visibility: hidden;
+    margin: 0;
+    height: 0;
+    width: 0;
   }
 }

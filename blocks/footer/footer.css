@@ -8,15 +8,29 @@
   overflow: hidden;
   width: calc(100% - 40px);
   margin: 0;
-  padding: 30px 20px 0;
+  padding: 20px;
+
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
 
   color: #000;
 }
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
   .footer {
-    padding: 0;
     width: 90%;
     margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
